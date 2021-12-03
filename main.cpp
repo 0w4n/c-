@@ -1,6 +1,7 @@
 #include "iostream"
 
 using namespace std;
+<<<<<<< HEAD
 double Coste;
 double Tiempo;
 double Intereses;
@@ -22,3 +23,10 @@ cin>>Intereses;
 return Tiempo,Coste,Intereses;
 };
 }
+=======
+int main () {
+    double cant€ = 0;
+    interesCompuesto();
+}
+//https://www.dsi.fceia.unr.edu.ar/downloads/Entrada-SalidaCplusplus.pdf
+>>>>>>> fea5b90d9cab659e4859aa711161a15931596256
