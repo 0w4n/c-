@@ -1,9 +1,9 @@
-#include "intr-compst.h"
-#include "iostream"
+#include "intr.h"
+
+double Cfc;
 
 using namespace std;
-
-int interesCompuesto() {
-    double numale= 5;
-    return numale;
+double intereCompuesto() {
+Cfc = Coste*(1+(Intereses/100))*Tiempo*Tiempo;
+return Cfc;
 }

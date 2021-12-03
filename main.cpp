@@ -1,9 +1,24 @@
-#include "interes/intr-compst.h"
 #include "iostream"
 
 using namespace std;
-int main () {
-    double cant_eu = 1;
-    double cant_f = interesCompuesto() + cant_eu;
-    cout << cant_f << endl;
+double Coste;
+double Tiempo;
+double Intereses;
+
+int main() {
+cout<<"Buenas!/n"<<"¿Que quieres hacer?";
+string Pp;
+cin>>Pp;
+if (Pp == "Quiero comprar una casa") {
+cout<<"¿Cuanto cuesta?";
+//Coste
+cin>>Coste;
+//Tiempo
+cout<<"En años/n";
+cin>>Tiempo;
+//Interés
+cout<<"¿A que interés?";
+cin>>Intereses;
+return Tiempo,Coste,Intereses;
+};
 }
