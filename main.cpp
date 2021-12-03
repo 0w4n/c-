@@ -1,32 +1,28 @@
 #include "iostream"
+#include "string"
+#include "interes/intr.cpp"
 
-using namespace std;
-<<<<<<< HEAD
 double Coste;
 double Tiempo;
 double Intereses;
 
+using namespace std;
 int main() {
-cout<<"Buenas!/n"<<"¿Que quieres hacer?";
+cout<<"Buenas!"<<endl<<"Que quieres hacer?"<<endl;
 string Pp;
-cin>>Pp;
+getline(cin,Pp);
 if (Pp == "Quiero comprar una casa") {
-cout<<"¿Cuanto cuesta?";
 //Coste
+cout<<"Coste:"<<endl;
 cin>>Coste;
 //Tiempo
-cout<<"En años/n";
+cout<<"Tiempo:"<<endl;
 cin>>Tiempo;
 //Interés
-cout<<"¿A que interés?";
+cout<<"Interes:"<<endl;
 cin>>Intereses;
 return Tiempo,Coste,Intereses;
 };
-}
-=======
-int main () {
-    double cant€ = 0;
-    interesCompuesto();
+compintrSC();
 }
 //https://www.dsi.fceia.unr.edu.ar/downloads/Entrada-SalidaCplusplus.pdf
->>>>>>> fea5b90d9cab659e4859aa711161a15931596256
