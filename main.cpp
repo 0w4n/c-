@@ -3,6 +3,7 @@
 
 using namespace std;
 int main () {
-    double cant€ = 0;
-    interesCompuesto();
+    double cant_eu = 1;
+    double cant_f = interesCompuesto() + cant_eu;
+    cout << cant_f << endl;
 }

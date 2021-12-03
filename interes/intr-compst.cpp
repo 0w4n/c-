@@ -4,7 +4,6 @@
 using namespace std;
 
 int interesCompuesto() {
-    int numale= 5;
-    cout << numale;
-    return 0;
+    double numale= 5;
+    return numale;
 }
