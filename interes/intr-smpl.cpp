@@ -1,9 +1,9 @@
 #include "intr.hpp"
 
-double Cfs;
+double Isf;
 
 using namespace std;
 double intereSimple() {
-Cfs = Coste*(1+(Intereses/100)*Tiempo);
-return Cfs;
+Isf = Coste*(1+(Intereses/100)*Tiempo);
+return Isf;
 }

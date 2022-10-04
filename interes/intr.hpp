@@ -4,5 +4,5 @@ extern double Tiempo;
 extern double Intereses;
 
 /*Resultados Finales*/
-extern double Cfc;
-extern double Cfs;
+extern double Isf; /*Interes simple final*/
+extern double Icf; /*Interes compuesto final*/

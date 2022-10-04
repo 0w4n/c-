@@ -1,9 +1,9 @@
 #include "intr.hpp"
 
-double Cfc;
+double Icf;
 
 using namespace std;
 double intereCompuesto() {
-Cfc = Coste*(1+(Intereses/100))*Tiempo*Tiempo;
-return Cfc;
+Icf = Coste*(1+(Intereses/100))*Tiempo*Tiempo;
+return Icf;
 }
